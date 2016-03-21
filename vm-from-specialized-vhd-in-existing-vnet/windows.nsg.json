@@ -1,0 +1,45 @@
+{
+  "$schema":"https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion":"1.0.0.0",
+  "parameters":{
+    "networkSecurityGroupName":{
+      "type":"string",
+      "defaultValue":"VM001nsg01nic01",
+      "minLength":1,
+      "maxLength":80,
+      "metadata":{
+        "description":"The name for Network Security Group."
+      }
+    }
+  },
+  "variables":{
+    "apiVersion":"2015-06-15",
+    "location":"[resourceGroup().location]"
+  },
+  "resources":[
+    {
+      "apiVersion":"[variables('apiVersion')]",
+      "type":"Microsoft.Network/networkSecurityGroups",
+      "name":"[parameters('networkSecurityGroupName')]",
+      "location":"[variables('location')]",
+      "properties":{
+        "securityRules":[
+          {
+            "name":"AllowRdp",
+            "properties":{
+              "description":"Allow RDP",
+              "protocol":"Tcp",
+              "sourcePortRange":"*",
+              "destinationPortRange":"3389",
+              "sourceAddressPrefix":"Internet",
+              "destinationAddressPrefix":"*",
+              "access":"Allow",
+              "priority":1000,
+              "direction":"Inbound"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

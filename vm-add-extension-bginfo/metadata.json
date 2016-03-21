@@ -1,0 +1,7 @@
+{
+  "itemDisplayName":"Add BGinfo extension to existiing VM",
+  "description":"This template add BGinfo to existing Windows VM.",
+  "summary":"This template add BGinfo to existing VM",
+  "githubUsername":"Dariusz-Porowski",
+  "dateUpdated":"2016-02-07"
+}

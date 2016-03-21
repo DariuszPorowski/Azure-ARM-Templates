@@ -1,0 +1,36 @@
+{
+  "$schema":"https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion":"1.0.0.0",
+  "parameters":{
+    "existingVmName":{
+      "type":"string",
+      "defaultValue":"VM001",
+      "minLength":3,
+      "maxLength":15,
+      "metadata":{
+        "description":"Name of the virtual machine. Up to 15 chars."
+      }
+    }
+  },
+  "variables":{
+    "apiVersion":"2015-06-15",
+    "location":"[resourceGroup().location]"
+  },
+  "resources":[
+    {
+      "apiVersion":"[variables('apiVersion')]",
+      "type":"Microsoft.Compute/virtualMachines/extensions",
+      "name":"[concat(parameters('existingVmName'),'/BGInfo')]",
+      "location":"[variables('location')]",
+      "properties":{
+        "publisher":"Microsoft.Compute",
+        "type":"BGInfo",
+        "typeHandlerVersion":"2.1",
+        "settings":{
+
+        },
+        "protectedSettings":null
+      }
+    }
+  ]
+}

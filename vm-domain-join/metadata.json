@@ -1,0 +1,7 @@
+{
+  "itemDisplayName":"Domain join a VM to an existing domain",
+  "description":"This template create new Windows Server VM with one data disk and join it to an existing ADDS domain. The template requires a domain controller to already be setup. Virtual Network and Storage Accounts on Azure site must exist.",
+  "summary":"This template joins a VM to an existing domain",
+  "githubUsername":"Dariusz-Porowski",
+  "dateUpdated":"2016-02-10"
+}

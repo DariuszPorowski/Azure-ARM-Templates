@@ -1,0 +1,33 @@
+{
+  "$schema":"https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion":"1.0.0.0",
+  "parameters":{
+    "existingVirtualNetworkResourceGroup":{
+      "value":"contosorg001"
+    },
+    "existingVirtualNetworkName":{
+      "value":"contosovnet001"
+    },
+    "existingSubnetName":{
+      "value":"subnet001"
+    },
+    "privateStaticIpAddress":{
+      "value":"10.0.0.30"
+    },
+    "vmName":{
+      "value":"VM001"
+    },
+    "osType":{
+      "value":"Windows"
+    },
+    "vmSize":{
+      "value":"Standard_A2"
+    },
+    "osDiskVhdUri":{
+      "value":"https://contosostorage001.blob.core.windows.net/vhds/vm001.vhd"
+    },
+    "diagnosticsStorageAccountName":{
+      "value":"contosostorage001"
+    }
+  }
+}
