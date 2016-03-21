@@ -9,9 +9,9 @@ The template is based on https://github.com/Azure/azure-quickstart-templates/tre
 3. Existing Virtual Network could be in diffrent Resource Group.
 4. Deploy to the Virtual Network with ADDS domain controller - could be diffrent subnet. 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDariusz-Porowski%2FAzure-ARM-Templates%2Fmaster%2Fvm-domain-join%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDariuszPorowski%2FAzure-ARM-Templates%2Fmaster%2Fvm-domain-join%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FDariusz-Porowski%2FAzure-ARM-Templates%2Fmaster%2Fvm-domain-join%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FDariuszPorowski%2FAzure-ARM-Templates%2Fmaster%2Fvm-domain-join%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>

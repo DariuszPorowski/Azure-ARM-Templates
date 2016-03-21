@@ -8,9 +8,9 @@ The template is based on https://github.com/Azure/azure-quickstart-templates/tre
 2. Name of the existing Virtual Network and Subnet you want to connect the new virtual machine to. 
 3. Name of the Resource Group that the Virtual Network resides in.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDariusz-Porowski%2FAzure-ARM-Templates%2Fmaster%2Fvm-from-specialized-vhd-in-existing-vnet%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDariuszPorowski%2FAzure-ARM-Templates%2Fmaster%2Fvm-from-specialized-vhd-in-existing-vnet%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FDariusz-Porowski%2FAzure-ARM-Templates%2Fmaster%2Fvm-from-specialized-vhd-in-existing-vnet%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FDariuszPorowski%2FAzure-ARM-Templates%2Fmaster%2Fvm-from-specialized-vhd-in-existing-vnet%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
